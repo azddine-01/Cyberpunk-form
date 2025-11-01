@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <form class="form-container" action="#" method="post">
+        <img src="images/avatar.png" alt="Profile Picture" class="profile-img">
+
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        
+        <select>
+            <option disabled selected>Country</option>
+            <option value="morocco">Morocco</option>
+            <option value="algeria">Algeria</option>
+            <option value="usa">USA</option>
+            <option value="other">Other</option>
+        </select>
+
+        <div class="input-group gender-group">
+            <span>Gender</span>
+            <input type="radio" id="male" name="gender" value="male" checked>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+
+        <input type="date" class="date-field">
+
+        <textarea placeholder="Description" rows="4"></textarea>
+
+        <button type="submit">SAVE DATA</button>
+    </form>
+
+</body>
+</html>
